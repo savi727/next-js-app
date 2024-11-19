@@ -60,7 +60,7 @@ jobs:
             # Start the new container
             docker run -d \
               --name nextjs-app \
-              -p 3200:3000 \
+              -p 3200:3200 \
               --restart unless-stopped \
               --network nginx-network \
               savinder727/next.js-app:latest
